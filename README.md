@@ -6,7 +6,7 @@ CSS e imagens responsivas.
 
 ## Prévia
 
-![Prévia do projeto](./preview.png)
+![Prévia do projeto](./images/preview.png)
 
 ## Links
 
