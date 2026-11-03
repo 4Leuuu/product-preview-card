@@ -1,0 +1,127 @@
+:root {
+  /* Colors */
+  --black: #1c232b;
+  --grey: #6c7289;
+  --cream: #f2eae2;
+  --white: #ffffff;
+
+  --green-500: #3d8168;
+  --green-700: #1a4032;
+
+  /* Typography */
+  --text-1: 700 2rem/1 "Fraunces", serif;
+  --text-2: 700 0.875rem/1.1 "Montserrat", sans-serif;
+  --text-3: 500 0.875rem/1.6 "Montserrat", sans-serif;
+  --text-4: 500 0.75rem/1.2 "Montserrat", sans-serif;
+  --text-5: 500 0.8125rem/1.2 "Montserrat", sans-serif;
+
+  --text-4-spacing: 5px;
+  --letter-spacing: 0px;
+
+  /* Spacing */
+  --spacing-50: 0.25rem; /* 4px */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-200: 1rem;   /* 16px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-400: 2rem;   /* 32px */
+  --spacing-500: 2.5rem; /* 40px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font: var(--text-3);
+  color: var(--grey);
+  background-color: var(--cream);
+  width: 100%;
+  height: 100dvh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font: var(--text-1);
+  color: var(--black);
+}
+
+.product-category {
+  font: var(--text-4);
+  letter-spacing: var(--text-4-spacing);
+  text-transform: uppercase;
+}
+
+.product-price {
+  font: var(--text-1);
+  color: var(--green-500);
+}
+
+.product-old-price {
+  font: var(--text-5);
+}
+
+button {
+  font: var(--text-2);
+  background-color: var(--green-500);
+  color: var(--white);
+  border: none;
+  padding: var(--spacing-200) var(--spacing-400) ;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-100);
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+button:hover {
+  background-color: var(--green-700);
+}
+
+main {
+    border-radius: 8px;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+picture img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+section {
+    padding: var(--spacing-400);
+    display: grid;
+    gap: var(--spacing-300);
+}
+
+.product-prices {
+    display: flex;
+    gap: var(--spacing-200);
+    align-items: center;    
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        max-width: 600px;
+    }
+
+    picture img {
+        border-radius: 8px 0 0 8px;
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+    }
+}
+
