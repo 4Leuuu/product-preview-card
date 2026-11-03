@@ -10,7 +10,7 @@ CSS e imagens responsivas.
 
 ## Links
 
-- Site publicado: [Ver projeto](https://github.com/4Leuuu/product-preview-card)
+- Site publicado: [Ver projeto](https://4leuuu.github.io/product-preview-card/)
 - Desafio: [Frontend Mentor](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD/challenge/65e71e1c17e502f0b6ce64b0/start)
 
 ## Tecnologias
