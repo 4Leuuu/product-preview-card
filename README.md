@@ -26,7 +26,7 @@ CSS e imagens responsivas.
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+git clone https://github.com/4Leuuu/product-preview-card.git
 ```
 
 Abra o arquivo `index.html` no navegador ou use a extensão
